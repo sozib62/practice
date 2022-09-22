@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-color: rgb(52, 50, 50);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: rgb(238, 118, 32);
+}
+
+section {
+    /* display: flex; */
+    margin-bottom: 80px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    color: rgb(255, 255, 255);
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(chartreuse, rgb(207, 240, 116));
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+
+/* ///////////////////////////// */
+/* .main-card {
+    background-color: rgb(160, 156, 156);
+
+} */
+
+.Exprience h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.Exprience span {
+    color: tomato;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card {
+    background-color: rgb(91, 88, 88);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 350px;
+    height: 470px;
+}
+
+.card img {
+    background-color: rgb(183, 179, 179);
+    width: 25%;
+    padding: 30px;
+}
+
+.footer-container {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon a {
+    font-size: 30px;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+}
